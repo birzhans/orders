@@ -1,0 +1,7 @@
+<%= link_to "User page", user_path %>
+
+<% @businesses.each do |business| %>
+  <p>
+    <%= business.title %>
+  </p>
+<% end %>

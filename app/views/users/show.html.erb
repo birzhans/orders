@@ -1,0 +1,7 @@
+<h1>User page</h1>
+<p>Username: <%= @user.username %></p>
+<h3>User orders</h3>
+
+<% @user.businesses.each do |b| %>
+  <%= b.title  %>
+<% end %>
